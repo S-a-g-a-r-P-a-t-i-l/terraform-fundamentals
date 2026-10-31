@@ -31,6 +31,6 @@ resource "aws_instance" "app_server" {
   instance_type = "t3.micro"
 
   tags = {
-     Name = "Terraform-Assignment-EC2-Updated"
+     Name = "Terraform-Assignment-EC2"
   }
 }
